@@ -1,0 +1,341 @@
+@media  screen and (max-width:767px) {
+    .image-container {
+        background-image: url(./disney\ resim1..jpg);
+        width: 100%;
+        min-height: 400px;
+        background-size: 100%;
+        display: flex;
+    }
+    .text-container1 h1 {
+        font-size: 28px;
+    }
+   .body {
+    display: flex;
+    position: relative;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+   }
+   .body-flex-container h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 5px;
+
+   }
+   .body-flex-container p {
+    font-size: 10px;
+    margin-bottom: 0;
+    line-height: 22px;
+   }
+   .body-flex-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 80px;
+   }
+   .header-animation-arrow i {
+    margin-top: 120px;
+   }
+   .body .img1 {
+    display: none;
+ 
+   }
+   .body .img2 {
+    display: inline-block;
+    width: 90%;
+   }
+   /* body2 */
+   .body2-flex-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+      }
+   
+    .body2-flex-container p {
+        font-size: 15px;
+        line-height: 20px;
+     }
+     .body2-flex-container h1{
+        font-size: 25px;
+        line-height: 9px;
+        margin-bottom: 5px;
+     }
+     
+     .body2-box-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+     }
+     .body2-box-container li h1 {
+        font-size: 22px;
+        line-height: 26px;
+        width: 100%;
+     }
+     .body2-box-container li p {
+        font-size: 16px;
+        width: 100%;
+     }
+     .body2-box-container li img {
+        width: 100%;
+     }
+     /* body3 */
+     .body3-content-h1 {
+        font-size: 13px;
+     }
+     .a-c-h1 {
+        font-size: 15px;
+     }
+     .başlik {
+        margin-left: 295px;
+        font-size: 22px;
+     }
+     /* deneme */
+    .body4-box-container1 {
+      display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-left: 0;
+     }
+
+     .middle {
+      justify-content: center;
+     }
+     .body4-box.center {
+      align-items: center;
+     }
+
+      .body4-box{
+         box-sizing: border-box;
+         display: flex;
+         flex-direction: column;
+          list-style: none;
+      }
+
+      .center {
+         text-align: center;
+     }
+
+     .body4-box .center h1 {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: normal;
+      line-height: 32px;
+  }
+
+   .body4-box h1 {
+       margin-top: 20px;
+  }
+  .mobile .body4-box {
+   flex: 0 0 calc(50% - 12px);
+   width: calc(50% - 12px);
+  }
+  .body4-box .center{
+   align-items: center;
+
+  }
+
+  .body4-box h1 {
+   font-size: 22px;
+  }
+  .body4-box p{
+   font-size: 1rem;
+   margin-top: 0;
+  }
+  /* footer */
+  .footer {
+   margin-top: 4rem;
+  }
+ 
+}
+
+
+  
+
+
+/* ikinci kısım */
+@media screen and ( max-width:991px){
+   .image-container{
+      background-image: url(./disney\ resim1....jpg);
+      width: 100%;
+      min-height: 400px;
+        background-size: 100%;
+        display: flex; }
+
+        .text-container1 h1 {
+         font-size: 32px;
+         font-family: Avenir,sans-serif;
+         line-height: 42px;
+   
+       }
+       .button-container a button{
+         height: 60px;
+         width: 360px;
+       }
+       .header-content-p1 {
+         font-size: 1.1rem;
+         margin-top: 25px;
+       }
+       .header-animation-arrow i {
+         margin-top: 35px;
+       }
+       /* body */
+       .body-flex-container {
+         height: 42%;
+       }
+       .body-flex-container h1 {
+         font-size: 32px;
+         line-height: 42px;
+       }
+       .body-flex-container p {
+         letter-spacing: 0.2px;
+       }
+       /* .body .img2 {
+       
+         display: none;
+       }  */
+       .body2-flex-container h1 {
+        font-size: 31px;
+       }
+       .body2-box-container li h1 {
+        font-size: 24px;
+       }
+       .body2-box-container li p {
+        font-size: 18px;
+       }
+       /* body3 */
+       .body3-content-h1 {
+        font-size: 14px;
+       } 
+
+
+       .a-c-h1{
+        font-size: 18px;
+        color: #ffffff;
+       }
+       .ac-plus {
+        font-size: 30px;
+        color: #ffffff;
+       }
+       .başlik{
+        margin-left: 360px;
+        font-size: 28px;
+        margin-bottom: 19px;
+       }
+       .body4-box h1 {
+        width: 100%;
+        font-size: 22px;
+        margin-bottom: 20px;
+       }
+       .body4-box p {
+        font-size: 1rem;
+       }
+
+   } 
+   @media screen and (min-width:768px){
+    .body .img2 {
+      display: none;
+    }
+       
+      
+   }
+
+
+   /* üçüncü kisim */
+    @media screen and (max-width:1024px){
+    .image-container{
+      background-image: url(./disney\ resim1....jpg);
+      width: 100%;
+      min-height: 400px;
+        background-size: 100%;
+        display: flex;
+        background-repeat: no-repeat;
+    }
+    .text-container1 h1 {
+      font-size: 34px;
+      line-height: 40px;
+     }
+     .header-content-p1 {
+      font-size: 19px;
+     }
+     .header-content-p2 {
+      font-size: 14px;
+     }
+     .text-container1 h4 {
+      font-size: 22px;
+     }
+     .header-animation-arrow i {
+      margin-top: 36px;
+     }
+     .header-animation-arrow {
+      position: absolute;
+    margin-top: 336px;
+     }
+     
+     .body-flex-container {
+      height: 42%;
+     }
+     .body-flex-container h1 {
+      font-size: 30px;
+      margin-bottom: 22px;
+     }
+     .body-flex-container p {
+      font-size: 16px;
+     }
+     /* .body .img2 {
+      display: none;
+     } */
+     .body2-box-container {
+      width: 94%;
+     } 
+     .body2-flex-container h1 {
+      font-size: 30px;
+      line-height: 25px;
+      margin-top: 52px;
+     }
+     .body2-flex-container p {
+      font-size: 19px;
+     }
+     .body2-box-container li h1{
+      font-size: 24px;
+     }
+     .body2-box-container li p {
+      font-size: 18px;
+     }
+     .body3-content-h1 {
+      font-size: 14px;
+     }
+     .a-c-h1 {
+      font-size: 17px;
+     }
+     .başlik {
+      margin-left: 377px;
+      font-size: 26px;
+     }
+     .body4-box h1 {
+      font-size: 23px;
+     }
+     .body4-box p {
+      font-size: 17px;
+     }
+     .footer-flex-container {
+      margin-top: 40px;
+     }
+
+    }
+    /* @media screen and(max-width:2000px) {
+      .body-flex-container p {
+        margin-bottom: 450px;
+      }
+      .text-container1 h1 {
+        font-size: 20px;
+      }
+    } */
+
+   
+   
+    
+    
+      
+ 
+  
+
+
